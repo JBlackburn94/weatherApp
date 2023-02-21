@@ -46,17 +46,37 @@ body {
     background-color: black;
     border-radius: 5px;
     border: rgb(153, 255, 0) solid 1px;
+    cursor: pointer;
+}
+
+.button-clear {
+    height: 2rem;
+    padding-inline: 2rem;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: rgb(153, 255, 0) solid 1px;
+    margin-top: 1rem;
+    cursor: pointer;
 }
 
 button {
     border: none;
     outline: none;
+    margin-inline: 0.5rem;
+    background: none;
 }
 
 .button-icon:hover {
     background-color: rgb(153, 255, 0);
     color: black;
     border-radius: 50%;
+    transition: 0.5s;
+}
+
+.button-clear:hover {
+    background-color: rgb(153, 255, 0);
+    color: black;
     transition: 0.5s;
 }
 

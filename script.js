@@ -1,11 +1,7 @@
 let weather = {
     apiKey: '6117c1e3ad21ed0cc5fb99e896427823',
     fetchWeather: function(city) {
-       fetch('https://api.openweathermap.org/data/2.5/weather?q='
-        + city 
-        + '&units=metric&appid=' 
-        + this.apiKey
-        )
+       fetch('https://api.openweathermap.org/data/2.5/weather?q='+ city + '&units=metric&appid=' + this.apiKey)
         .then((response) => response.json())
         .then((data) => this.displayWeather(data)); 
     },
@@ -16,9 +12,7 @@ let weather = {
         const { speed } = data.wind;
         console.log(name, icon, description, temp, humidity, speed);
         document.querySelector('.city').innerText = 'Weather in ' + name;
-        document.querySelector('.icon').src = 'http://openweathermap.org/img/wn/' 
-        + icon 
-        + '.png';
+        document.querySelector('.icon').src = 'http://openweathermap.org/img/wn/' + icon + '.png';
         document.querySelector('.description').innerText = description;
         document.querySelector('.temp').innerText = temp + '°C';
         document.querySelector('.humidity').innerText = 'Humidity: ' + humidity;
@@ -29,12 +23,33 @@ let weather = {
     }
 };
 
-document.querySelector('.search button').addEventListener('click', function() {
-    weather.search();
-});
-
 document.querySelector('.search-bar').addEventListener('keyup', function(event) {
     if (event.key == 'Enter'){
       weather.search();  
     }
-})
+});
+    
+document.querySelector('.search button').addEventListener('click', function() {
+        weather.search();
+});
+
+document.querySelector('#reset').addEventListener('click', function() {
+    let city = document.querySelector('.city');
+    city.innerHTML = '';
+
+    let temp = document.querySelector('.temp');
+    temp.innerHTML = '';
+
+    let icon = document.querySelector('.icon');
+    icon.src = '';
+
+    let description = document.querySelector('.description');
+    description.innerHTML = '';
+
+    let humidity = document.querySelector('.humidity');
+    humidity.innerHTML = '';
+
+    let wind = document.querySelector('.wind');
+    wind.innerHTML = '';
+});
+
