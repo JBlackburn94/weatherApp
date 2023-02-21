@@ -18,7 +18,7 @@
   <body>
     <div class="card">
       <div class="search">
-        <input type="text" class="search-bar" />
+        <input type="text" class="search-bar" placeholder="Enter a city" />
         <button class="button" href="">
           <i class="button-icon fa-solid fa-magnifying-glass"></i>
         </button>
@@ -34,7 +34,9 @@
         <div class="humidity"></div>
         <div class="wind"></div>
       </div>
-      <button id="reset" class="button button-clear">Reset</button>
+      <button id="reset" class="button button-clear" onclick="clearInput()">
+        Reset
+      </button>
     </div>
   </body>
 </html>

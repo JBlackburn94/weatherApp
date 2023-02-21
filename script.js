@@ -53,3 +53,10 @@ document.querySelector('#reset').addEventListener('click', function() {
     wind.innerHTML = '';
 });
 
+function clearInput() {
+    var getValue = document.querySelector('.search-bar');
+    if (getValue.value != ''){
+        getValue.value = '';
+    };
+};
+
