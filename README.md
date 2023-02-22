@@ -1,6 +1,6 @@
-# Jason Blackburn - Web Developer Portfolio Website
+# Jason Blackburn - Milestone Project 2 Weather App
 
-This site is to be used by potential recruiters/companys to explore the skills and some background information of Jason Blackburn. Following this, there is also a contact form at the bottom, whilst it is static at the moment, when fully functional, this will allow users to contact the developer directly from the site itself. There is also an attached PDF which is linked to the 'Download CV' button, where recruiters/hiring managers can view and download a copy of the CV.
+This site is to be used by the user to find out what the weather is in various locations around the globe.
 
 # Table of Contents
 
@@ -15,19 +15,19 @@ This site is to be used by potential recruiters/companys to explore the skills a
 
 # Business <a name="business"></a>
 
-The business goals of this page are to provide information on Jason Blackburns skills and experience.
+The business goals of this page are to provide accurate weather information to the user.
 
 ## External Users Goals
 
-The external users goals of this page are to gain knowledge of the skills and experience of Jason Blackburn, to determine whether he is fit for the needs of specific roles.
+The external users goals of this page are to provide accurate weather information for any location around the globe. Including humidity, wind speed and temperature.
 
 ## Site Owners Goals
 
-The site owners goals of this page are to provide a clear and concise description of Jason Blackburns skills and experience, along with a pleasant and visually pleasing experience.
+The site owners goals of this page are to provide clear weather data using the Open Weather API.
 
 # Colour Scheme <a name="color-scheme"></a>
 
-The site is built with design in mind, whilst still being rated highly for accessibility on Google Lighthouse. I have used dark colors for the header and footer background and light colors for the font to make it pop and stand out. The opposite has been done for the content itself, using bright background colours with a black font colour. This is done in hopes that it will draw the user in.
+The site uses a background image of a city skyline at night. I've also added a dark border with a low opacity around the div containing the weather information. To make this stand out I've included a bright green border around the div, buttons and input fields. On hover these turn bright green.
 
 ## Body Colour
 
