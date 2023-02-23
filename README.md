@@ -107,11 +107,7 @@ GitPod -> GitHub -> GitHub Pages
 
 ## GitHub
 
-Create GitHub Repository using the Code Institute Full Template
-
-## GitPod
-
-Pushed all content from GitPod to GitHub using Git commands (git add, git commit, git push etc).
+Create GitHub Repository using VS Code. Commited and pushed all content from VS Code to Github.
 
 ## GitHub Pages
 
@@ -119,26 +115,14 @@ Completed site deployed to GitHub Pages.
 
 # Credits <a name="credits"></a>
 
-[Fireship](https://www.youtube.com/watch?v=lPJVi797Uy0&t=542s)
+[Stack Overflow](https://stackoverflow.com/)
 
-For the creation of curved images to seperate each section.
-
-[Bootstrap](https://getbootstrap.com/)
-
-For various syntax used accross the content.
+I used Stack Overflow to research ways to reset the data and clear the input field.
 
 # Media <a name="media"></a>
 
+[Background Image](https://unsplash.com/)
+
 ## Fonts
 
-[Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)
-
-Nav Bar font.
-
-[Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)
-
-Headings and Titles font.
-
-[Ubuntu](https://fonts.google.com/specimen/Ubuntu)
-
-Main content font.
+[Outfit](https://fonts.google.com/specimen/Outfit)
