@@ -33,29 +33,11 @@ The site uses a background image of a city skyline at night. I've also added a d
 
 The body for this site uses an image of a city skyline. This fills the entire page with no repeats and is scalable on large and small screens including mobile.
 
-## Main Section Colours
-
-![image](https://user-images.githubusercontent.com/113805105/207841022-cdf8715e-b9fd-47ef-bb15-8281733246a3.png)
-
-Here we have the colours for each section of the website. I wanted to make them bright and eye catching, whilst still being easy to read text over.
-
-## Navbar and Footer Colours
-
-![image](https://user-images.githubusercontent.com/113805105/207843883-a1c688fd-1b8e-440b-9052-50c4e0bce9da.png)
-![image](https://user-images.githubusercontent.com/113805105/207842522-bae82844-7b45-44f7-9306-8c5a9875b5e8.png)
-
-The navbar and footer colours are dark, so that they stand out from the main content of the page. The font colour in this section is also white rather than black to be easily visable.
-
 ## Font Family
 
-![image](https://user-images.githubusercontent.com/113805105/207845181-0bc36580-a575-41ba-afbd-6175b03dd63c.png)
+![image](readMeImgs/Screenshot%202023-02-23%20at%2012.09.48.png)
 
-I have used a traditional code styled font in the nav and footer, this was a purely aesthetic decision to give it a slightly different look to the main content.
-
-![image](https://user-images.githubusercontent.com/113805105/207845429-c409c350-09f7-4d43-b7d8-76252fc2f1b7.png)
-![image](https://user-images.githubusercontent.com/113805105/207845526-31b2d283-b87e-4bd6-b906-fbf6ddef6d31.png)
-
-I have used two fonts for the main content of the page. Bebas Neue for titles and headings and Ubuntu for the content itself. Whilst they are not too different from each other, it adds a nice variety to the page.
+I have used a font from Google Fonts named Outfit. Outfit is clean and easy to read and makes for a better alternative to the standard fonts in my opinion.
 
 # Wireframes <a name="wireframes"></a>
 
