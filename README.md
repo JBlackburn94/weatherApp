@@ -41,9 +41,9 @@ I have used a font from Google Fonts named Outfit. Outfit is clean and easy to r
 
 # Wireframes <a name="wireframes"></a>
 
-I have made wire frames for desktop, mobile and tablet view. These can be seen below. I have utlised a hamburger style menu for the smaller window sizes on mobile and tablet. This is to keep things looking clean and not too busy. I have also used a mixture of media queries and boostrap to make the page fully responsive.
+I have made wire frames for desktop and mobile. These can be seen below. This app has basically the same layout on mobile and desktop due to the simplicity of the UI.
 
-![image](https://user-images.githubusercontent.com/113805105/207986238-b37121d9-58a4-49f6-bdc3-fb450145e280.png)
+![image](<readMeImgs/milestoneProject2%20Desktop%20Wireframe%20(1).png>)
 
 # Technologies Used <a name="technologies-used"></a>
 
@@ -57,21 +57,25 @@ The project uses HTML to create the content.
 
 The project uses CSS to style some of the elements, and also makes some of the elements responsive.
 
-[Bootstrap](https://getbootstrap.com/)
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-The project uses the Bootstrap framework in order to style some of the elements, and also makes some of the elements responsive.
+The project uses JavaScipt to make the project interactive.
+
+[OpenWeatherAPI](https://openweathermap.org/)
+
+This project uses the Open Weather Map API to pull JSON data relevant to the users search value.
 
 [GitHub](https://github.com/)
 
 Project Repository.
 
-[Code Institute Full GitPod Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+VSCode
 
-Use of the template provided to me by Code Institute.
+I used VS Code to build this project.
 
-[GitPod/Visiual Studio Code](https://gitpod.io/)
+[GitHub](https://github.com/JBlackburn94/weatherApp)
 
-Use of GitPod as the main IDE for this project.
+I have used GitHub to push and deploy this project.
 
 # Testing <a name="testing"></a>
 
@@ -89,13 +93,13 @@ The W3 Schools CSS Validator - returning 0 errors.
 
 [Google Chrome Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 
-Google Chrome Lighthouse was used to score the performance and accesibility of this site. Although it does appear to be showing an error whilst loading some external files. I have investigated this with my mentor and the error is incorrect as all files are showing and working.
+Google Chrome Lighthouse was used to score the performance and accesibility of this site.
 
-| User Story                                                                                                                          | User Case                                                                                                                                                                                    | Pass/Fail |     |     |
-| ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | --- | --- |
-| User Story 001 - (Consumer) As a consumer I want to be able to access Jason Blackburns skillset, information about him, and his CV. | User case 001-001 Easy access to all information via a scroll function from the navbar. Clicking any of the nav items will scroll the page to that specific section.                         | Pass      |     |     |
-|                                                                                                                                     | User case 001-002 Downloading CV is accessed by clicking the download CV nav item, where a new tab will be opened. The attached PDF is available to read and download easily from this page. | Pass      |     |     |
-| User Story 002 - (Consumer) As a consumer I want the page to be easily readable and clean on multiple devices.                      | User case 002 - 001 The page is fully responsive, the layout will adapt and change to be fully accessible and responsive on all sized devices.                                               | Pass      |     |     |
+| User Story                                                                                              | User Case                                                                                                                                                      | Pass/Fail |     |     |
+| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | --- | --- |
+| User Story 001 - (Consumer) As a consumer I want to be able to access weather data by location name.    | User case 001-001 Easily access any weather data for any location by typing the name into the input field and pressing search or enter.                        | Pass      |     |     |
+|                                                                                                         | User case 001-002 Locations can also be searched by post code.                                                                                                 | Pass      |     |     |
+| User Story 002 - (Consumer) As a consumer I want to be able to quickly reset the data and search again. | User case 002 - 001 The data is easily reset using the clearly labelled reset button at the bottom of the container. This will also reset clear the input box. | Pass      |     |     |
 
 # Deployment <a name="deployment"></a>
 
