@@ -31,9 +31,7 @@ The site uses a background image of a city skyline at night. I've also added a d
 
 ## Body Colour
 
-![image](https://user-images.githubusercontent.com/113805105/207840049-3224bbe1-080b-4bcd-9a08-c57b6808d5c0.png)
-
-This color is used for the background of the body, although its not seen throughout the page, it looks better than the standard white if the user was to see it.
+The body for this site uses an image of a city skyline. This fills the entire page with no repeats and is scalable on large and small screens including mobile.
 
 ## Main Section Colours
 
