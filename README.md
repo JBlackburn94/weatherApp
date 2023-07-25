@@ -95,6 +95,8 @@ The W3 Schools CSS Validator - returning 0 errors.
 
 Google Chrome Lighthouse was used to score the performance and accesibility of this site.
 
+The code was also ran through JSLint showing no important errors.
+
 | User Story                                                                                              | User Case                                                                                                                                                      | Pass/Fail |     |     |
 | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | --- | --- |
 | User Story 001 - (Consumer) As a consumer I want to be able to access weather data by location name.    | User case 001-001 Easily access any weather data for any location by typing the name into the input field and pressing search or enter.                        | Pass      |     |     |
