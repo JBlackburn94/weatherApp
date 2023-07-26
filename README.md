@@ -79,7 +79,7 @@ I have used GitHub to push and deploy this project.
 
 # Testing <a name="testing"></a>
 
-“PLEASE NOTE - There is an error showing. The error claims that some external font/icon files have not been loaded. But having investigated this with my mentor, we can clearly see all items have loaded and this error is incorrect.”
+“PLEASE NOTE - There is an error showing. The error claims that some external font/icon files have not been loaded. But having investigated this with my mentor, we can clearly see all items have loaded and this error is incorrect. There is also an error should an incorrect location or spelling mistake entered. However, I have accounted for this by using a catch statement, upon entering a mistake the user will be prompted with an alert to make them aware there were no results found. -”
 
 This project was tested using:
 
@@ -96,6 +96,8 @@ The W3 Schools CSS Validator - returning 0 errors.
 Google Chrome Lighthouse was used to score the performance and accesibility of this site.
 
 The code was also ran through JSLint showing no important errors.
+
+I also ran manual tests on this project and worked towards fixing any errors I found. The main problem I found was upon entering an incorrect location name or a spelling mistake, an error 404 would be present in the console. I fixed this by implementing error handling, using a catch statement to alert the user when they're search returned no data, the alert will then ask them to reset, check again and finally check their spelling.
 
 | User Story                                                                                              | User Case                                                                                                                                                      | Pass/Fail |     |     |
 | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | --- | --- |
