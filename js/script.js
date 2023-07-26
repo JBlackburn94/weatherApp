@@ -1,3 +1,4 @@
+// Here I declare my API call, along with a catch incase of any errors with retrieving data.
 let weather = {
     apiKey: "6117c1e3ad21ed0cc5fb99e896427823",
     fetchWeather: function(city) {
@@ -27,18 +28,18 @@ let weather = {
         this.fetchWeather(document.querySelector(".search-bar").value);
     }
 };
-
+// Here I declare a function to allow the user to hit the enter key to search. 
 document.querySelector(".search-bar")
 .addEventListener("keyup", function(event) {
     if (event.key === "Enter"){
       weather.search();
     }
 });
-
+// Here I declare a function to make the search button interactive.
 document.querySelector(".search button").addEventListener("click", function() {
         weather.search();
 });
-
+// Here I declare a function to reset the form when the user clicks the reset button. 
 document.querySelector("#reset").addEventListener("click", function() {
     let city = document.querySelector(".city");
     city.innerHTML = "";
@@ -58,7 +59,7 @@ document.querySelector("#reset").addEventListener("click", function() {
     let wind = document.querySelector(".wind");
     wind.innerHTML = "";
 });
-
+// Here I declare a function to reset the value of the search bar. 
 function clearInput() {
     let getValue = document.querySelector(".search-bar");
     if (getValue.value !== ""){
