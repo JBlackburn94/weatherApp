@@ -95,7 +95,7 @@ The W3 Schools CSS Validator - returning 0 errors.
 
 Google Chrome Lighthouse was used to score the performance and accesibility of this site.
 
-The code was also ran through JSLint showing no important errors.
+The code was also ran through JSLint, a number of errors were present but they were mainly due to empty white space etc. After fixing the layout issues I was only left with errors that weren't major issues.
 
 I also ran manual tests on this project and worked towards fixing any errors I found. The main problem I found was upon entering an incorrect location name or a spelling mistake, an error 404 would be present in the console. I fixed this by implementing error handling, using a catch statement to alert the user when they're search returned no data, the alert will then ask them to reset, check again and finally check their spelling.
 
